@@ -74,9 +74,7 @@ class LanguagePack::Ruby < LanguagePack::Base
     instrument "ruby.default_process_types" do
       {
         "rake"    => "bundle exec rake",
-        "console" => "bundle exec irb",
-        "worker"  => "bundle exec rake jobs:work",
-        "clock"   => "bundle exec clockwork lib/clock.rb"
+        "console" => "bundle exec irb"
       }
     end
   end
